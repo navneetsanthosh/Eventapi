@@ -13,3 +13,4 @@ class IsOrganizerOrReadOnly(BasePermission):
             return True
         else:
             return obj.organizer == request.user
+
